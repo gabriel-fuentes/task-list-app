@@ -5,6 +5,7 @@ const taskList = document.querySelector('.collection');
 
 //Event Listeners
 form.addEventListener('submit', addTask);
+taskList.addEventListener('click', deleteTask);
 
 function addTask (e) {    
     e.preventDefault();
@@ -16,5 +17,11 @@ function addTask (e) {
     link.innerHTML = "<i class='fa fa-remove'></i>";
     li.appendChild(link);
     taskList.appendChild(li);
+}
 
+function deleteTask(e){
+    e.preventDefault();
+    if(e.target.parentElement.classList.contains('delete-item')){
+        e.target.parentElement.parentElement.remove()
+    }
 }
