@@ -1,5 +1,5 @@
 #Task List App
 
-This is a Vanila Javascript app, that allows you to add tasks, remove and filter tasks.
+This is a Vanila Javascript app, that allows you to add tasks, remove and filter between the tasks.
 
-The tasks will be saved in Local Storage, so you can access them even if you close the browser
+The tasks will be saved in Local Storage, so you can access them even if you close the browser.
