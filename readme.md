@@ -1,4 +1,4 @@
-#Task List App
+<h1>Task List App</h1>
 
 This is a Vanila Javascript app, that allows you to add tasks, remove and filter between the tasks.
 
